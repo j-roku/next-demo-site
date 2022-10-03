@@ -1,0 +1,7 @@
+@use '../mixin/mixin.scss' as mixin;
+@import '../mixin/mediaquery.scss';
+
+.l-body {
+  padding-top: 8rem;
+  background-color: var(--color-bg);
+}

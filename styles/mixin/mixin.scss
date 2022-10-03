@@ -1,0 +1,19 @@
+@mixin z-loading($num){
+  z-index: $num + 5000;
+}
+
+@mixin z-modal($num){
+  z-index: $num + 4000;
+}
+
+@mixin z-header($num){
+  z-index: $num + 3000;
+}
+
+@mixin z-footer($num){
+  z-index: $num + 2000;
+}
+
+@mixin z-contents($num){
+  z-index: $num + 1000;
+}

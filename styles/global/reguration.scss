@@ -1,0 +1,14 @@
+:root {
+
+    --font-default: 'Noto Sans JP', sans-serif;
+    --font-en: 'Montserrat', sans-serif;
+
+    --color-bg: #DADAD1;
+    --color-text: #232323;
+
+    --color-red: #B93930;
+}
+
+.font-en {
+  font-family: var(--font-en);
+}

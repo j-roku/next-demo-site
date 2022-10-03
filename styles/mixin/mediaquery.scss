@@ -1,0 +1,12 @@
+/**
+ * for mobile viewoport
+ */
+  @custom-media --mobile (max-width: 767px);
+  @custom-media --mobile-s (max-width: 350px);
+
+  @custom-media --large (min-width: 768px);
+  @custom-media --big (min-width: 1440px);
+  @custom-media --tablet (max-width: 1280px);
+  @custom-media --tablet-s (max-width: 960px);
+
+  @custom-media --phone (min-width: 544px);
