@@ -1,3 +1,5 @@
+import {Swiper,SwiperSlide} from 'swiper/react';
+
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -20,7 +22,23 @@ export default function Home() {
       <Header pagename={pagename} />
       <main>
 
-        <h2>Swiper</h2>
+
+        <Section>
+          <h2>Swiper</h2>
+
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper>
+
+        </Section>
 
       </main>
 

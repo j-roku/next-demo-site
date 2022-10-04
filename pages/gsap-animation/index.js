@@ -1,10 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
-
-import Header from '../components/header';
-import Section from '../components/section';
-
-// import styles from '../styles/page/home.module.scss';
+import Header from '/components/header';
 import 'swiper/css';
 
 
